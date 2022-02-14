@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src = "https://www.gstatic.com/firebasejs/9.6.6/firebase-app-compat.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/9.6.6/firebase-database-compat.js"></script>
+    <script type="module">
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyD2DaxEBV9vlgR8uYKnZO24w5bNqmqdNHk",
+        authDomain: "nome-muito-legal-e-criativo.firebaseapp.com",
+        databaseURL: "https://nome-muito-legal-e-criativo-default-rtdb.firebaseio.com",
+        projectId: "nome-muito-legal-e-criativo",
+        storageBucket: "nome-muito-legal-e-criativo.appspot.com",
+        messagingSenderId: "935900816551",
+        appId: "1:935900816551:web:d1965ea8e1026604872782"
+      };
+    
+      // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src = 'js/Game.js'></script>
+    <script src = 'js/Player.js'></script>
+    <script src = 'js/Form.js'></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>

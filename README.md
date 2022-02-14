@@ -1,1 +1,2 @@
-# jogo-mal-educado
+# synchronousBallMovement
+Ball moving synchronously
